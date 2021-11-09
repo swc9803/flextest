@@ -44,6 +44,15 @@ export default {
 <style scoped>
 .container {
   display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+  .item {
+    flex: 1;
+  }
 }
 .infl {
   display: inline-flex;
