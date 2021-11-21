@@ -15,6 +15,7 @@
     <div>mob</div>
     <div>web</div>
   </div>
+  <!-- overflow auto 는 필요하지 않은 스크롤 바를 없애준다 -->
   <p class="overflow">
     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
