@@ -8,15 +8,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container {
-  padding: 10px;
-  background: lightgray;
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.item {
-  padding: 10px;
-  border: 3px solid rgb(50, 50, 40);
-  color: white;
-  background: mediumseagreen;
-}
-
 </style>

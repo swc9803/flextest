@@ -6,6 +6,8 @@ import Display from '@/csstest/Display.vue'
 import Lineheight from '@/csstest/Lineheight.vue'
 import Link from '@/csstest/Link.vue'
 import Cube from '@/csstest/Cube.vue'
+import Flip from '@/csstest/Flip.vue'
+import Fleximg from '@/csstest/flex/Fleximg.vue'
 import Flex1 from '@/csstest/flex/Flex1.vue'
 import Flex2 from '@/csstest/flex/Flex2.vue'
 import Flex3 from '@/csstest/flex/Flex3.vue'
@@ -49,6 +51,16 @@ const routes = [
     path: '/cube',
     name: 'Cube',
     component: Cube
+  },
+  {
+    path: '/flip',
+    name: 'Flip',
+    component: Flip
+  },
+  {
+    path: '/fleximg',
+    name: 'Fleximg',
+    component: Fleximg
   },
   {
     path: '/flex1',

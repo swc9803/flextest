@@ -26,6 +26,31 @@
 <style lang="scss" scoped>
 html, body { padding: 0; margin: 0; }
 
+.image-row {
+  display: flex;
+  .image01 {
+    flex: 1;
+  }
+  .image02 {
+    flex: 1;
+  }
+  .image03 {
+    flex: 2;
+  }
+  div {
+    height: 240px;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
+@media (max-width: 480px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
+
 .image01 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-01.jpg'); }
 .image02 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-02.jpg'); }
 .image03 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-03.jpg'); }
