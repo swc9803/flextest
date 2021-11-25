@@ -18,6 +18,11 @@ import Flex5 from '@/csstest/flex/Flex5.vue'
 import Flex6 from '@/csstest/flex/Flex6.vue'
 import Flex7 from '@/csstest/flex/Flex7.vue'
 import Grid1 from '@/csstest/grid/Grid1.vue'
+import Grid2 from '@/csstest/grid/Grid2.vue'
+import Grid3 from '@/csstest/grid/Grid3.vue'
+import Grid4 from '@/csstest/grid/Grid4.vue'
+import Grid5 from '@/csstest/grid/Grid5.vue'
+import Gridtest from '@/csstest/grid/Gridtest.vue'
 
 const routes = [
   {
@@ -114,6 +119,31 @@ const routes = [
     path: '/grid1',
     name: 'Grid1',
     component: Grid1
+  },
+  {
+    path: '/grid2',
+    name: 'Grid2',
+    component: Grid2
+  },
+  {
+    path: '/grid3',
+    name: 'Grid3',
+    component: Grid3
+  },
+  {
+    path: '/grid4',
+    name: 'Grid4',
+    component: Grid4
+  },
+  {
+    path: '/grid5',
+    name: 'Grid5',
+    component: Grid5
+  },
+  {
+    path: '/gridtest',
+    name: 'Gridtest',
+    component: Gridtest
   }
 ]
 
