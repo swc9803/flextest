@@ -7,6 +7,8 @@ import Lineheight from '@/csstest/Lineheight.vue'
 import Link from '@/csstest/Link.vue'
 import Cube from '@/csstest/Cube.vue'
 import Flip from '@/csstest/Flip.vue'
+import Flip2 from '@/csstest/Flip2.vue'
+import Shape from '@/csstest/Shape.vue'
 import Fleximg from '@/csstest/flex/Fleximg.vue'
 import Flex1 from '@/csstest/flex/Flex1.vue'
 import Flex2 from '@/csstest/flex/Flex2.vue'
@@ -15,6 +17,7 @@ import Flex4 from '@/csstest/flex/Flex4.vue'
 import Flex5 from '@/csstest/flex/Flex5.vue'
 import Flex6 from '@/csstest/flex/Flex6.vue'
 import Flex7 from '@/csstest/flex/Flex7.vue'
+import Grid1 from '@/csstest/grid/Grid1.vue'
 
 const routes = [
   {
@@ -58,6 +61,16 @@ const routes = [
     component: Flip
   },
   {
+    path: '/flip2',
+    name: 'Flip2',
+    component: Flip2
+  },
+  {
+    path: '/shape',
+    name: 'Shape',
+    component: Shape
+  },
+  {
     path: '/fleximg',
     name: 'Fleximg',
     component: Fleximg
@@ -96,6 +109,11 @@ const routes = [
     path: '/flex7',
     name: 'Flex7',
     component: Flex7
+  },
+  {
+    path: '/grid1',
+    name: 'Grid1',
+    component: Grid1
   }
 ]
 
