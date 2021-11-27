@@ -1,28 +1,31 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/pages/Home.vue'
-import Test1 from '@/pages/Test1.vue'
-import Test2 from '@/pages/Test2.vue'
-import Display from '@/csstest/Display.vue'
-import Lineheight from '@/csstest/Lineheight.vue'
-import Link from '@/csstest/Link.vue'
-import Cube from '@/csstest/Cube.vue'
-import Flip from '@/csstest/Flip.vue'
-import Flip2 from '@/csstest/Flip2.vue'
-import Shape from '@/csstest/Shape.vue'
-import Fleximg from '@/csstest/flex/Fleximg.vue'
-import Flex1 from '@/csstest/flex/Flex1.vue'
-import Flex2 from '@/csstest/flex/Flex2.vue'
-import Flex3 from '@/csstest/flex/Flex3.vue'
-import Flex4 from '@/csstest/flex/Flex4.vue'
-import Flex5 from '@/csstest/flex/Flex5.vue'
-import Flex6 from '@/csstest/flex/Flex6.vue'
-import Flex7 from '@/csstest/flex/Flex7.vue'
-import Grid1 from '@/csstest/grid/Grid1.vue'
-import Grid2 from '@/csstest/grid/Grid2.vue'
-import Grid3 from '@/csstest/grid/Grid3.vue'
-import Grid4 from '@/csstest/grid/Grid4.vue'
-import Grid5 from '@/csstest/grid/Grid5.vue'
-import Gridtest from '@/csstest/grid/Gridtest.vue'
+import Home from '@/pages/Home'
+import Test1 from '@/pages/Test1'
+import Test2 from '@/pages/Test2'
+import Display from '@/csstest/Display'
+import Lineheight from '@/csstest/Lineheight'
+import Link from '@/csstest/Link'
+import Cube from '@/csstest/Cube'
+import Flip from '@/csstest/Flip'
+import Flip2 from '@/csstest/Flip2'
+import Shape from '@/csstest/Shape'
+import Fleximg from '@/csstest/flex/Fleximg'
+import Flex1 from '@/csstest/flex/Flex1'
+import Flex2 from '@/csstest/flex/Flex2'
+import Flex3 from '@/csstest/flex/Flex3'
+import Flex4 from '@/csstest/flex/Flex4'
+import Flex5 from '@/csstest/flex/Flex5'
+import Flex6 from '@/csstest/flex/Flex6'
+import Flex7 from '@/csstest/flex/Flex7'
+import Grid1 from '@/csstest/grid/Grid1'
+import Grid2 from '@/csstest/grid/Grid2'
+import Grid3 from '@/csstest/grid/Grid3'
+import Grid4 from '@/csstest/grid/Grid4'
+import Grid5 from '@/csstest/grid/Grid5'
+import Gridtest from '@/csstest/grid/Gridtest'
+import Toggle from '@/csstest/Toggle'
+import Footer from '@/csstest/Footer'
+import Youtube from '@/csstest/Youtube'
 
 const routes = [
   {
@@ -144,6 +147,21 @@ const routes = [
     path: '/gridtest',
     name: 'Gridtest',
     component: Gridtest
+  },
+  {
+    path: '/Toggle',
+    name: 'Toggle',
+    component: Toggle
+  },
+  {
+    path: '/footer',
+    name: 'Footer',
+    component: Footer
+  },
+  {
+    path: '/youtube',
+    name: 'Youtube',
+    component: Youtube
   }
 ]
 
